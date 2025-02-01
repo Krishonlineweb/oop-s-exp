@@ -46,19 +46,15 @@
 //Q3. command line calculator
 // public class exp2 {
 //     public static void main(String[] args) {
-//         // Check if exactly 3 arguments are passed (number1, operator, number2)
 //         if (args.length != 3) {
 //             System.out.println("Usage: java exp2 <number1> <operator> <number2>");
 //             System.out.println("Example: java exp2 10 + 5");
 //             return;
 //         }
 //         try {
-//             // Parse the first and third arguments as integers
 //             int num1 = Integer.parseInt(args[0]);
 //             int num2 = Integer.parseInt(args[2]);
-//             // Read the operator (second argument)
 //             String operator = args[1];
-//             // Perform the operation based on the operator
 //             int result = 0;
 //             switch (operator) {
 //                 case "+":
@@ -74,7 +70,6 @@
 //                     System.out.println("Invalid operator! Use +, -, or *.");
 //                     return;
 //             }
-//             // Print the result
 //             System.out.println("Result: " + num1 + " " + operator + " " + num2 + " = " + result);
 //         } catch (NumberFormatException e) {
 //             System.out.println("Error: Please provide valid integers for number1 and number2.");
@@ -87,7 +82,7 @@
 // public class exp2 {
 //     public static void main(String[] args) {
 //         int sum = 0; //try in order of 1
-//         for (int i = 10; i <= 57; i++) {
+//         for (int i = 10; i <= 89; i++) {
 //             if (i % 18 == 0) {
 //                 sum += i;
 //             }
@@ -128,7 +123,7 @@
 //         NumberComparison comparison = new NumberComparison();
 //         int greatest = comparison.findGreatest(num1, num2, num3);
 //         System.out.println("The greatest number is: " + greatest);
-//         scanner.close(); 
+//         scanner.close();
 //     }
 // }
 
@@ -140,10 +135,8 @@
 
 //     public static void main(String[] args) {
 //         Scanner scanner = new Scanner(System.in);
-
 //         System.out.print("Enter a number (1-7): ");
 //         int dayNumber = scanner.nextInt();
-
 //         switch (dayNumber) {
 //             case 1 ->
 //                 System.out.println("Monday");
@@ -162,7 +155,6 @@
 //             default ->
 //                 System.out.println("Invalid! Enter a number between 1 and 7.");
 //         }
-
-//         scanner.close(); 
+//         scanner.close();
 //     }
 // }
